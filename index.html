@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!--Fontawesome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Nicholas Yuschak</title>
+  </head>
+  <body>
+    <!--Back to top button-->
+    <button id="back-to-top-btn">
+      <i class="fas fa-arrow-circle-up" style="background: transparent"></i>
+      <!--  <i class="fas fa-chevron-up"></i>-->
+    </button>
+    <!--End back to top button-->
+
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="navbar___container">
+        <a href="/" id="navbar__logo"> NICHOLAS YUSCHAK</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links"> About Me </a>
+          </li>
+          <li class="navbar__item">
+            <a href="#my-work" class="navbar__links"> My Work </a>
+          </li>
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__links"> Contact Me </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--End Navbar-->
+
+    <div class="hero-container">
+      <!--Body content-->
+      <div class="body">
+        <div class="body-title">
+          <h1>Hi, my name is Nicholas. I'm a Designer and<br />Developer.</h1>
+        </div>
+        <div class="body-social-logos">
+          <a href="https://github.com/nicholasmyuschak"
+            ><i class="fab fa-github-square"> </i
+          ></a>
+          <a href="https://www.linkedin.com/in/nicholas-yuschak-6a8b1421b/">
+            <i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <!--End Body Content-->
+    </div>
+
+    <!--About Content-->
+    <div id="about" class="about-container">
+      <div class="about-1">
+        <h2 data-aos="fade-right" data-aos-duration="800" data-aos-delay="80">
+          About Me
+        </h2>
+
+        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="105">
+          I'm a Front End Web Designer and Developer. I specialize in creating
+          responsive and modern websites. All of my designs use a mobile-first
+          approach.
+        </p>
+        <br />
+        <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="140">
+          I'm an enthusiastic student of the evolving web, constantly seeking to
+          expand my skillset.
+        </p>
+        <br />
+        <!--<p data-aos="fade-right" data-aos-duration="1600" data-aos-delay="160">
+          I have a B.S. in Interactive Design from James Madison University.
+        </p>-->
+      </div>
+      <div class="about-2">
+        <img src="images/me-home.jpg" alt="picture of me" />
+      </div>
+    </div>
+
+    <!--My Work-->
+    <div id="my-work" class="my-work-container">
+      <div class="my-work-title">
+        <h2>My Work</h2>
+      </div>
+      <!--Site 1-->
+      <div class="my-work-1">
+        <h3>JOJO'S CUSTOM RESTORATION</h3>
+        <br />
+        <p>
+          An imaginary retail site for refinishing skateboards, vintage cars,
+          and guitars.
+        </p>
+        <br />
+        <img src="images/jojos.jpg" alt="jojo's website" />
+        <div id="button-grid-1" class="button-grid">
+          <button class="site-button">
+            <a
+              href="https://nicholasmyuschak.github.io/responsive-design-yuschak/index.html"
+              >View Site</a
+            >
+          </button>
+          <button class="code-button">
+            <a
+              href="https://github.com/nicholasmyuschak/responsive-design-yuschak"
+            >
+              Source Code</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <!--Site 2-->
+      <div class="my-work-2">
+        <h3>BEERWERKS TRAIL</h3>
+        <br />
+        <p>
+          A collaborative to spread the word about small business during the
+          pandemic.
+        </p>
+        <br />
+        <img src="images/beerwerks.jpg" alt="beerwerks website" />
+        <div id="button-grid-2" class="button-grid">
+          <button class="site-button">
+            <a
+              href="https://nicholasmyuschak.github.io/308-final-beerwerks/index.html"
+              >View Site</a
+            >
+          </button>
+          <button class="code-button">
+            <a href="https://github.com/nicholasmyuschak/308-final-beerwerks"
+              >Source Code</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <!--Site 3-->
+      <div class="my-work-3">
+        <h3>APP FLOW REDESIGN</h3>
+        <br />
+        <p>A study in User Experience, complete redesign of scheduling app.</p>
+        <br />
+        <img src="images/app-flow.jpg" alt="App Flow Redesign Website" />
+        <div id="button-grid-3" class="button-grid">
+          <button class="site-button">
+            <a href="http://techchron.com/308sp21/afrnicholasyuschak/"
+              >View Site</a
+            >
+          </button>
+          <button class="code-button">
+            <a href="https://github.com/nicholasmyuschak/app-flow"
+              >Source Code</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--p5.js Content-->
+
+    <div class="p5-container">
+      <h2 class="p5-heading">Sketches using p5.js library</h2>
+      <div class="sketch-1">
+        <a href="https://openprocessing.org/sketch/1108779/pc/h0k5MQKQ">
+          <img src="images/bus-animate.jpg" alt="p5-bus sketch" />
+        </a>
+        <p>Interactive Bus Animation</p>
+      </div>
+      <div class="sketch-2">
+        <a href="https://openprocessing.org/sketch/1117187/pc/UF9bbR4E">
+          <img src="images/snoopy.png" alt="p5-snoopy sketch" />
+        </a>
+        <p>Animated Snoopy Portrait</p>
+      </div>
+      <div class="sketch-3">
+        <a href="https://openprocessing.org/sketch/1126578/pc/dYpW2Vzl">
+          <img src="images/time-viz.png" alt="p5-time viz sketch" />
+        </a>
+        <p>Interactive Mood Clock</p>
+      </div>
+    </div>
+
+    <!--Contact-->
+    <div id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <form action="#" name="contact_form">
+        <label for="first_name">First Name</label>
+        <input name="first_name" type="text" required placeholder="John" />
+        <br />
+        <label for="last_name">Last Name</label>
+        <input name="last_name" type="text" required placeholder="Doe" />
+        <br />
+        <label for="email">Email</label>
+        <input
+          name="email"
+          type="email"
+          required
+          placeholder="you@domain.com"
+        />
+        <br />
+        <label for="message">Message</label><br />
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Enter your message here ..."
+          required
+        >
+        </textarea>
+        <div class="center">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+    <!---->
+
+    <!--Footer-->
+    <footer class="footer-container">
+      <div class="footer-items">
+        <h4>Nicholas Yuschak</h4>
+        <h4>nmyuschak@gmail.com</h4>
+        <h4>yuschanm@dukes.jmu.edu</h4>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
